@@ -1,0 +1,228 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Tuzla'nın komşu kasabı · Dükkandan teslim · Taze ve günlük
+    - generic [ref=e4]:
+      - link "ŞİFA ET Şifa Olsun · 1986" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Şe
+        - generic [ref=e7]:
+          - generic [ref=e8]: ŞİFA ET
+          - generic [ref=e9]: Şifa Olsun · 1986
+      - navigation [ref=e10]:
+        - link "Dana Eti" [ref=e11] [cursor=pointer]:
+          - /url: /kategori/dana
+        - link "Kuzu Eti" [ref=e12] [cursor=pointer]:
+          - /url: /kategori/kuzu
+        - link "Tavuk" [ref=e13] [cursor=pointer]:
+          - /url: /kategori/tavuk
+        - link "Kıyma" [ref=e14] [cursor=pointer]:
+          - /url: /kategori/kiyma
+        - link "Şarküteri" [ref=e15] [cursor=pointer]:
+          - /url: /kategori/sarkuteri
+      - link "Sepet" [ref=e16] [cursor=pointer]:
+        - /url: /sepet
+        - generic [ref=e17]: 🛒
+        - generic [ref=e18]: Sepet
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Tuzla · 1986'den beri
+        - heading "Taze eti seç, dükkandan teslim al." [level=1] [ref=e24]
+        - paragraph [ref=e25]: Şifa et'in günlük taze dana, kuzu, tavuk ve şarküteri ürünlerini online sipariş edin; siz uğraşmadan hazırlayalım. “Şifa Olsun”
+        - generic [ref=e26]:
+          - link "Sipariş ver" [ref=e27] [cursor=pointer]:
+            - /url: /kategori/dana
+          - link "Ürünlere göz at" [ref=e28] [cursor=pointer]:
+            - /url: "#kategoriler"
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: Günlük Taze
+          - paragraph [ref=e33]: Her gün taze kesim
+        - generic [ref=e34]:
+          - paragraph [ref=e35]: Dükkandan Teslim
+          - paragraph [ref=e36]: Sıra beklemeden al
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: 1986'dan Beri
+          - paragraph [ref=e39]: Komşu kasap güveni
+        - generic [ref=e40]:
+          - paragraph [ref=e41]: Teslimde Ödeme
+          - paragraph [ref=e42]: Nakit veya kart
+      - generic [ref=e43]:
+        - heading "Kategoriler" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - link "Dana Eti Kuşbaşı, biftek, antrikot ve daha fazlası" [ref=e46] [cursor=pointer]:
+            - /url: /kategori/dana
+            - generic [ref=e47]: Dana Eti
+            - generic [ref=e48]: Kuşbaşı, biftek, antrikot ve daha fazlası
+          - link "Kuzu Eti Pirzola, kuzu kol, but ve çeşitleri" [ref=e49] [cursor=pointer]:
+            - /url: /kategori/kuzu
+            - generic [ref=e50]: Kuzu Eti
+            - generic [ref=e51]: Pirzola, kuzu kol, but ve çeşitleri
+          - link "Tavuk But, göğüs, kanat ve bütün tavuk" [ref=e52] [cursor=pointer]:
+            - /url: /kategori/tavuk
+            - generic [ref=e53]: Tavuk
+            - generic [ref=e54]: But, göğüs, kanat ve bütün tavuk
+          - link "Kıyma Dana, karışık ve özel çekim kıymalar" [ref=e55] [cursor=pointer]:
+            - /url: /kategori/kiyma
+            - generic [ref=e56]: Kıyma
+            - generic [ref=e57]: Dana, karışık ve özel çekim kıymalar
+          - link "Şarküteri Sucuk, pastırma, kavurma ve sosis" [ref=e58] [cursor=pointer]:
+            - /url: /kategori/sarkuteri
+            - generic [ref=e59]: Şarküteri
+            - generic [ref=e60]: Sucuk, pastırma, kavurma ve sosis
+      - generic [ref=e61]:
+        - heading "Bu Haftanın Fırsatları" [level=2] [ref=e62]
+        - generic [ref=e63]:
+          - link "Karışık Kıyma İNDİRİM Karışık Kıyma Dana-kuzu karışımı, sulu köfteler için ideal kıyma. başlayan ₺470 ₺220 Seç" [ref=e64] [cursor=pointer]:
+            - /url: /urun/karisik-kiyma
+            - generic [ref=e65]:
+              - generic "Karışık Kıyma" [ref=e66]:
+                - generic [ref=e67]: 🥩
+              - generic [ref=e68]: İNDİRİM
+            - generic [ref=e69]:
+              - heading "Karışık Kıyma" [level=3] [ref=e70]
+              - paragraph [ref=e71]: Dana-kuzu karışımı, sulu köfteler için ideal kıyma.
+              - generic [ref=e72]:
+                - generic [ref=e73]:
+                  - text: başlayan
+                  - generic [ref=e74]:
+                    - generic [ref=e75]: ₺470
+                    - generic [ref=e76]: ₺220
+                - generic [ref=e77]: Seç
+          - link "Dana Kavurma İNDİRİM Dana Kavurma Kendi yağında pişmiş, hazır dana kavurma. başlayan ₺420 ₺360 Seç" [ref=e78] [cursor=pointer]:
+            - /url: /urun/kavurma
+            - generic [ref=e79]:
+              - generic "Dana Kavurma" [ref=e80]:
+                - generic [ref=e81]: 🌭
+              - generic [ref=e82]: İNDİRİM
+            - generic [ref=e83]:
+              - heading "Dana Kavurma" [level=3] [ref=e84]
+              - paragraph [ref=e85]: Kendi yağında pişmiş, hazır dana kavurma.
+              - generic [ref=e86]:
+                - generic [ref=e87]:
+                  - text: başlayan
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: ₺420
+                    - generic [ref=e90]: ₺360
+                - generic [ref=e91]: Seç
+      - generic [ref=e92]:
+        - heading "Çok Satanlar" [level=2] [ref=e93]
+        - generic [ref=e94]:
+          - link "Dana Kuşbaşı ÇOK SATAN Dana Kuşbaşı Güveç, sote ve şişlik için ideal, sinirinden arındırılmış taze dana kuşbaşı. başlayan ₺285 Seç" [ref=e95] [cursor=pointer]:
+            - /url: /urun/dana-kusbasi
+            - generic [ref=e96]:
+              - generic "Dana Kuşbaşı" [ref=e97]:
+                - generic [ref=e98]: 🥩
+              - generic [ref=e99]: ÇOK SATAN
+            - generic [ref=e100]:
+              - heading "Dana Kuşbaşı" [level=3] [ref=e101]
+              - paragraph [ref=e102]: Güveç, sote ve şişlik için ideal, sinirinden arındırılmış taze dana kuşbaşı.
+              - generic [ref=e103]:
+                - generic [ref=e104]:
+                  - text: başlayan
+                  - generic [ref=e106]: ₺285
+                - generic [ref=e107]: Seç
+          - link "Dana Antrikot ÇOK SATAN Dana Antrikot Mangal ve ızgara için olgunlaştırılmış, mermerli dana antrikot. başlayan ₺240 Seç" [ref=e108] [cursor=pointer]:
+            - /url: /urun/dana-antrikot
+            - generic [ref=e109]:
+              - generic "Dana Antrikot" [ref=e110]:
+                - generic [ref=e111]: 🥩
+              - generic [ref=e112]: ÇOK SATAN
+            - generic [ref=e113]:
+              - heading "Dana Antrikot" [level=3] [ref=e114]
+              - paragraph [ref=e115]: Mangal ve ızgara için olgunlaştırılmış, mermerli dana antrikot.
+              - generic [ref=e116]:
+                - generic [ref=e117]:
+                  - text: başlayan
+                  - generic [ref=e119]: ₺240
+                - generic [ref=e120]: Seç
+          - link "Kuzu Pirzola ÇOK SATAN Kuzu Pirzola İnce kesim, mangalın yıldızı taze kuzu pirzola. başlayan ₺520 Seç" [ref=e121] [cursor=pointer]:
+            - /url: /urun/kuzu-pirzola
+            - generic [ref=e122]:
+              - generic "Kuzu Pirzola" [ref=e123]:
+                - generic [ref=e124]: 🍖
+              - generic [ref=e125]: ÇOK SATAN
+            - generic [ref=e126]:
+              - heading "Kuzu Pirzola" [level=3] [ref=e127]
+              - paragraph [ref=e128]: İnce kesim, mangalın yıldızı taze kuzu pirzola.
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - text: başlayan
+                  - generic [ref=e132]: ₺520
+                - generic [ref=e133]: Seç
+          - link "Tavuk Göğüs (Fileto) ÇOK SATAN Tavuk Göğüs (Fileto) Kemiksiz, derisiz tavuk göğüs fileto. başlayan ₺110 Seç" [ref=e134] [cursor=pointer]:
+            - /url: /urun/tavuk-gogus
+            - generic [ref=e135]:
+              - generic "Tavuk Göğüs (Fileto)" [ref=e136]:
+                - generic [ref=e137]: 🍗
+              - generic [ref=e138]: ÇOK SATAN
+            - generic [ref=e139]:
+              - heading "Tavuk Göğüs (Fileto)" [level=3] [ref=e140]
+              - paragraph [ref=e141]: Kemiksiz, derisiz tavuk göğüs fileto.
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - text: başlayan
+                  - generic [ref=e145]: ₺110
+                - generic [ref=e146]: Seç
+          - link "Dana Kıyma ÇOK SATAN Dana Kıyma Günlük çekim, köfte ve yemeklik dana kıyma. başlayan ₺250 Seç" [ref=e147] [cursor=pointer]:
+            - /url: /urun/dana-kiyma
+            - generic [ref=e148]:
+              - generic "Dana Kıyma" [ref=e149]:
+                - generic [ref=e150]: 🥩
+              - generic [ref=e151]: ÇOK SATAN
+            - generic [ref=e152]:
+              - heading "Dana Kıyma" [level=3] [ref=e153]
+              - paragraph [ref=e154]: Günlük çekim, köfte ve yemeklik dana kıyma.
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - text: başlayan
+                  - generic [ref=e158]: ₺250
+                - generic [ref=e159]: Seç
+          - link "Dana Sucuk (Fermente) ÇOK SATAN Dana Sucuk (Fermente) Baharatlı, geleneksel fermente dana sucuk. başlayan ₺300 Seç" [ref=e160] [cursor=pointer]:
+            - /url: /urun/dana-sucuk
+            - generic [ref=e161]:
+              - generic "Dana Sucuk (Fermente)" [ref=e162]:
+                - generic [ref=e163]: 🌭
+              - generic [ref=e164]: ÇOK SATAN
+            - generic [ref=e165]:
+              - heading "Dana Sucuk (Fermente)" [level=3] [ref=e166]
+              - paragraph [ref=e167]: Baharatlı, geleneksel fermente dana sucuk.
+              - generic [ref=e168]:
+                - generic [ref=e169]:
+                  - text: başlayan
+                  - generic [ref=e171]: ₺300
+                - generic [ref=e172]: Seç
+  - contentinfo [ref=e173]:
+    - generic [ref=e174]:
+      - generic [ref=e175]:
+        - paragraph [ref=e176]: ŞİFA ET
+        - paragraph [ref=e177]: “Şifa Olsun” · 1986
+        - paragraph [ref=e178]: Tuzla, İstanbul
+      - generic [ref=e179]:
+        - paragraph [ref=e180]: Kategoriler
+        - list [ref=e181]:
+          - listitem [ref=e182]:
+            - link "Dana Eti" [ref=e183] [cursor=pointer]:
+              - /url: /kategori/dana
+          - listitem [ref=e184]:
+            - link "Kuzu Eti" [ref=e185] [cursor=pointer]:
+              - /url: /kategori/kuzu
+          - listitem [ref=e186]:
+            - link "Tavuk" [ref=e187] [cursor=pointer]:
+              - /url: /kategori/tavuk
+          - listitem [ref=e188]:
+            - link "Kıyma" [ref=e189] [cursor=pointer]:
+              - /url: /kategori/kiyma
+          - listitem [ref=e190]:
+            - link "Şarküteri" [ref=e191] [cursor=pointer]:
+              - /url: /kategori/sarkuteri
+      - generic [ref=e192]:
+        - paragraph [ref=e193]: İletişim
+        - list [ref=e194]:
+          - listitem [ref=e195]: "Telefon: +90 000 000 00 00"
+          - listitem [ref=e196]: "WhatsApp: +90 000 000 00 00"
+          - listitem [ref=e197]:
+            - link "Sepetim" [ref=e198] [cursor=pointer]:
+              - /url: /sepet
+    - generic [ref=e199]: © 1986–2026 Şifa et · Tuzla
+  - alert [ref=e200]

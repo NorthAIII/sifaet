@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Tuzla'nın komşu kasabı · Dükkandan teslim · Taze ve günlük
+    - generic [ref=e4]:
+      - link "ŞİFA ET Şifa Olsun · 1986" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Şe
+        - generic [ref=e7]:
+          - generic [ref=e8]: ŞİFA ET
+          - generic [ref=e9]: Şifa Olsun · 1986
+      - navigation [ref=e10]:
+        - link "Dana Eti" [ref=e11] [cursor=pointer]:
+          - /url: /kategori/dana
+        - link "Kuzu Eti" [ref=e12] [cursor=pointer]:
+          - /url: /kategori/kuzu
+        - link "Tavuk" [ref=e13] [cursor=pointer]:
+          - /url: /kategori/tavuk
+        - link "Kıyma" [ref=e14] [cursor=pointer]:
+          - /url: /kategori/kiyma
+        - link "Şarküteri" [ref=e15] [cursor=pointer]:
+          - /url: /kategori/sarkuteri
+      - link "Sepet" [ref=e16] [cursor=pointer]:
+        - /url: /sepet
+        - generic [ref=e17]: 🛒
+        - generic [ref=e18]: Sepet
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - navigation [ref=e21]:
+        - link "Anasayfa" [ref=e22] [cursor=pointer]:
+          - /url: /
+        - text: /
+        - link "Dana Eti" [ref=e23] [cursor=pointer]:
+          - /url: /kategori/dana
+        - text: / Dana Antrikot
+      - generic [ref=e24]:
+        - generic "Dana Antrikot" [ref=e25]:
+          - generic [ref=e26]: 🥩
+        - generic [ref=e27]:
+          - heading "Dana Antrikot" [level=1] [ref=e28]
+          - paragraph [ref=e29]: Mangal ve ızgara için olgunlaştırılmış, mermerli dana antrikot.
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - paragraph [ref=e33]: Ağırlık seçin
+              - generic [ref=e34]:
+                - button "300 gr ₺240" [ref=e35]:
+                  - generic [ref=e36]: 300 gr
+                  - generic [ref=e37]: ₺240
+                - button "500 gr ₺390" [ref=e38]:
+                  - generic [ref=e39]: 500 gr
+                  - generic [ref=e40]: ₺390
+                - button "1 kg ₺760" [ref=e41]:
+                  - generic [ref=e42]: 1 kg
+                  - generic [ref=e43]: ₺760
+            - generic [ref=e44]:
+              - paragraph [ref=e45]: Adet
+              - generic [ref=e46]:
+                - button "Azalt" [ref=e47]: −
+                - generic [ref=e48]: "1"
+                - button "Arttır" [ref=e49]: +
+            - generic [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: Ara toplam
+                - generic [ref=e53]: ₺240
+              - generic [ref=e54]:
+                - button "Sepete ekle" [ref=e55]
+                - button "Hemen sipariş ver" [ref=e56]
+          - paragraph [ref=e57]: Et günlük ve taze hazırlanır. Ağırlıklar yaklaşıktır; tartıdaki küçük farklar dükkanda dengelenir.
+  - contentinfo [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e60]:
+        - paragraph [ref=e61]: ŞİFA ET
+        - paragraph [ref=e62]: “Şifa Olsun” · 1986
+        - paragraph [ref=e63]: Tuzla, İstanbul
+      - generic [ref=e64]:
+        - paragraph [ref=e65]: Kategoriler
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Dana Eti" [ref=e68] [cursor=pointer]:
+              - /url: /kategori/dana
+          - listitem [ref=e69]:
+            - link "Kuzu Eti" [ref=e70] [cursor=pointer]:
+              - /url: /kategori/kuzu
+          - listitem [ref=e71]:
+            - link "Tavuk" [ref=e72] [cursor=pointer]:
+              - /url: /kategori/tavuk
+          - listitem [ref=e73]:
+            - link "Kıyma" [ref=e74] [cursor=pointer]:
+              - /url: /kategori/kiyma
+          - listitem [ref=e75]:
+            - link "Şarküteri" [ref=e76] [cursor=pointer]:
+              - /url: /kategori/sarkuteri
+      - generic [ref=e77]:
+        - paragraph [ref=e78]: İletişim
+        - list [ref=e79]:
+          - listitem [ref=e80]: "Telefon: +90 000 000 00 00"
+          - listitem [ref=e81]: "WhatsApp: +90 000 000 00 00"
+          - listitem [ref=e82]:
+            - link "Sepetim" [ref=e83] [cursor=pointer]:
+              - /url: /sepet
+    - generic [ref=e84]: © 1986–2026 Şifa et · Tuzla
+  - button "Open Next.js Dev Tools" [ref=e90] [cursor=pointer]:
+    - img [ref=e91]
