@@ -1,34 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Şifa et">
-  <rect width="512" height="512" rx="112" fill="#15366b"/>
-  <circle cx="256" cy="256" r="196" fill="#c8102e"/>
-  <circle cx="256" cy="256" r="196" fill="none" stroke="#ffffff" stroke-width="10" opacity="0.85"/>
-  <g fill="#ffffff">
-    <!-- Sol boynuz: kafadan çıkıp yukarı-dışa kıvrılan sivri boynuz -->
-    <path d="M214 250
-             C 176 232, 138 196, 120 138
-             C 116 124, 132 118, 142 128
-             C 176 164, 214 196, 246 220 Z"/>
-    <!-- Sağ boynuz -->
-    <path d="M298 250
-             C 336 232, 374 196, 392 138
-             C 396 124, 380 118, 370 128
-             C 336 164, 298 196, 266 220 Z"/>
-    <!-- Boğa başı: alına doğru geniş, çeneye doğru daralan -->
-    <path d="M256 206
-             C 318 206, 350 244, 348 296
-             C 346 342, 318 382, 256 404
-             C 194 382, 166 342, 164 296
-             C 162 244, 194 206, 256 206 Z"/>
-  </g>
-  <!-- Öfkeli gözler (kırmızı oyuk, içe eğimli) -->
-  <g fill="#c8102e">
-    <path d="M205 280 l44 16 -7 24 -42 -14 Z"/>
-    <path d="M307 280 l-44 16 7 24 42 -14 Z"/>
-  </g>
-  <!-- Burun (muzzle) -->
-  <g>
-    <ellipse cx="256" cy="352" rx="46" ry="30" fill="#c8102e"/>
-    <ellipse cx="240" cy="350" rx="7" ry="9" fill="#ffffff"/>
-    <ellipse cx="272" cy="350" rx="7" ry="9" fill="#ffffff"/>
-  </g>
+  <rect width="512" height="512" rx="104" fill="#c8102e"/>
+  <rect x="34" y="34" width="444" height="444" rx="78" fill="none" stroke="#ffffff" stroke-width="10" opacity="0.55"/>
+  <text x="256" y="300" text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif" font-weight="700"
+        font-size="220" fill="#ffffff" letter-spacing="-6">ŞE</text>
+  <text x="256" y="386" text-anchor="middle"
+        font-family="Georgia, serif" font-size="40" fill="#ffffff" opacity="0.85"
+        letter-spacing="10">1986</text>
 </svg>

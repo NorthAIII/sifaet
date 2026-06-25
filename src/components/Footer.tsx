@@ -6,7 +6,9 @@ export default function Footer() {
     <footer className="mt-16 border-t border-stone-200 bg-brand-navy text-stone-200">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:grid-cols-3">
         <div>
-          <p className="text-lg font-black text-white">ŞİFA ET</p>
+          <p className="font-display text-2xl font-black text-white">
+            ŞİFA<span className="text-brand-red-light"> ET</span>
+          </p>
           <p className="mt-1 text-sm text-stone-300">
             “{SHOP.slogan}” · {SHOP.since}
           </p>

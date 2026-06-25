@@ -1,1 +1,4 @@
 [     275ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:3000/:0
+[11429662ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/urun/kavurma?_rsc=5CB68i4pnAekjehf:0
+[11429663ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/urun/karisik-kiyma?_rsc=5CB68i4pnAekjehf:0
+[11430030ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/kategori/kuzu?_rsc=5CB68i4pnAekjehf:0

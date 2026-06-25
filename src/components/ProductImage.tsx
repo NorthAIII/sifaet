@@ -1,34 +1,32 @@
-/**
- * Geçici ürün görseli. Gerçek fotoğraflar eklenince (public/urunler/*)
- * bu komponent <Image /> ile değiştirilecek.
- * Şimdilik marka renklerinde, ürün baş harfli bir placeholder gösterir.
- */
-const EMOJI: Record<string, string> = {
-  dana: "🥩",
-  kuzu: "🍖",
-  tavuk: "🍗",
-  kiyma: "🥩",
-  sarkuteri: "🌭",
-};
+import Image from "next/image";
 
+/**
+ * Ürün fotoğrafı. Görseller public/urunler/<slug>.jpg altında.
+ * (Şimdilik profesyonel stok foto; sonra dükkanın kendi fotoğraflarıyla değişecek.)
+ */
 export default function ProductImage({
+  slug,
   name,
-  categorySlug,
   className = "",
+  sizes = "(max-width: 768px) 50vw, 25vw",
+  priority = false,
 }: {
+  slug: string;
   name: string;
-  categorySlug: string;
   className?: string;
+  sizes?: string;
+  priority?: boolean;
 }) {
-  const emoji = EMOJI[categorySlug] ?? "🥩";
   return (
-    <div
-      className={`relative flex items-center justify-center overflow-hidden bg-gradient-to-br from-brand-cream to-stone-200 ${className}`}
-      aria-label={name}
-    >
-      <span className="text-5xl opacity-90 select-none" aria-hidden>
-        {emoji}
-      </span>
+    <div className={`relative overflow-hidden bg-stone-100 ${className}`}>
+      <Image
+        src={`/urunler/${slug}.jpg`}
+        alt={name}
+        fill
+        sizes={sizes}
+        priority={priority}
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
+      />
     </div>
   );
 }

@@ -34,11 +34,11 @@ export default async function CategoryPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-10">
-      <header className="mb-8">
-        <p className="text-sm font-semibold uppercase tracking-widest text-brand-red">
-          Şifa et
+      <header className="mb-10 border-b border-stone-200 pb-6">
+        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-red">
+          Şifa et · Reyon
         </p>
-        <h1 className="mt-1 text-3xl font-black text-brand-navy">
+        <h1 className="mt-2 font-display text-4xl font-black text-brand-navy">
           {category.name}
         </h1>
         <p className="mt-2 text-stone-500">{category.blurb}</p>

@@ -1,0 +1,220 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "Unsplash Home" [ref=e9]
+    - generic [ref=e11]:
+      - link "Log in / Sign up" [ref=e12] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fraw-beef-steak
+        - img [ref=e13]
+      - button "Language" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - button "Menu" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - navigation [ref=e23]:
+        - search "Find visuals sitewide" [ref=e25]:
+          - button "Search Unsplash" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - combobox [ref=e29]:
+            - searchbox "Search Unsplash" [ref=e30]: raw beef steak
+            - listbox
+          - button "Clear" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+          - button "Visual search" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "Photos 779":
+                - /url: /s/photos/raw-beef-steak
+                - img
+                - text: Photos
+                - generic: "779"
+            - listitem [ref=e48]:
+              - link "Illustrations 15" [ref=e49] [cursor=pointer]:
+                - /url: /s/illustrations/raw-beef-steak
+                - img [ref=e50]
+                - text: Illustrations
+                - generic [ref=e52]: "15"
+            - listitem [ref=e53]:
+              - button "More" [ref=e54] [cursor=pointer]
+          - button "Filters" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+            - text: Filters
+        - generic [ref=e60]:
+          - heading "Raw beef steak" [level=1] [ref=e62]
+          - generic [ref=e66]:
+            - link "beef" [ref=e68] [cursor=pointer]:
+              - /url: /s/photos/beef
+            - link "meat" [ref=e70] [cursor=pointer]:
+              - /url: /s/photos/meat
+            - link "steak" [ref=e72] [cursor=pointer]:
+              - /url: /s/photos/steak
+            - link "food" [ref=e74] [cursor=pointer]:
+              - /url: /s/photos/food
+            - link "raw steak" [ref=e76] [cursor=pointer]:
+              - /url: /s/photos/raw-steak
+            - link "raw meat" [ref=e78] [cursor=pointer]:
+              - /url: /s/photos/raw-meat
+            - link "ingredient" [ref=e80] [cursor=pointer]:
+              - /url: /s/photos/ingredient
+            - link "pork" [ref=e82] [cursor=pointer]:
+              - /url: /s/photos/pork
+            - link "raw" [ref=e84] [cursor=pointer]:
+              - /url: /s/photos/raw
+            - link "striploin" [ref=e86] [cursor=pointer]:
+              - /url: /s/photos/striploin
+            - link "food and drink" [ref=e88] [cursor=pointer]:
+              - /url: /s/photos/food-and-drink
+            - link "rib eye" [ref=e90] [cursor=pointer]:
+              - /url: /s/photos/rib-eye
+        - generic [ref=e92]:
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - figure [ref=e98]:
+                - link "Close up of beef cooking food photography recipe idea" [ref=e101]:
+                  - /url: /photos/close-up-of-beef-cooking-food-photography-recipe-idea-MyIH8nzCuCQ
+                  - img "Close up of beef cooking food photography recipe idea" [ref=e102]
+              - figure [ref=e103]:
+                - link "Two steaks on a plate with parsley" [ref=e106]:
+                  - /url: /photos/two-steaks-on-a-plate-with-parsley-U5lLwx17rWs
+                  - img "Two steaks on a plate with parsley" [ref=e107]
+              - generic [ref=e108]:
+                - heading "Sponsored images" [level=4] [ref=e109]:
+                  - generic [ref=e110]: Sponsored images
+                  - link [ref=e111] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A&phrase=raw+beef+steak&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e112]
+                - generic [ref=e114]:
+                  - link "Fresh Ribeye Steaks at the Butcher Shop" [ref=e115] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/fresh-ribeye-steaks-at-the-butcher-shop-gm174479270-8542508?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                    - img "Fresh Ribeye Steaks at the Butcher Shop" [ref=e116]
+                  - link "Variety of Raw Meat Steaks" [ref=e117] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/variety-of-raw-meat-steaks-gm1288461867-384406677?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                    - img "Variety of Raw Meat Steaks" [ref=e118]
+                  - link "Prime Boneless Hip Sirloin Steak" [ref=e119] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/prime-boneless-hip-sirloin-steak-gm171359079-21011542?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                    - img "Prime Boneless Hip Sirloin Steak" [ref=e120]
+                  - link "Buying meat at a supermarket." [ref=e121] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/buying-meat-at-a-supermarket-gm621271582-108471223?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                    - img "Buying meat at a supermarket." [ref=e122]
+                - link "Get 20% off with code UNSPLASH20" [ref=e123] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A&phrase=raw+beef+steak&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e124]:
+                - link "two steaks on a cutting board next to garlic, garlic, and a knife" [ref=e127]:
+                  - /url: /photos/two-steaks-on-a-cutting-board-next-to-garlic-garlic-and-a-knife-sV8Cl0_3UcY
+                  - img "two steaks on a cutting board next to garlic, garlic, and a knife" [ref=e128]
+              - figure [ref=e129]:
+                - link "raw meat on brown wooden table" [ref=e132]:
+                  - /url: /photos/raw-meat-on-brown-wooden-table-QH8SHBARVVk
+                  - img "raw meat on brown wooden table" [ref=e133]
+              - figure [ref=e134]:
+                - link "a couple of steaks sitting on top of a table" [ref=e137]:
+                  - /url: /photos/a-couple-of-steaks-sitting-on-top-of-a-table-j-17JLHMIpk
+                  - img "a couple of steaks sitting on top of a table" [ref=e138]
+              - figure [ref=e139]:
+                - link "raw meat on white ceramic bowl" [ref=e142]:
+                  - /url: /photos/raw-meat-on-white-ceramic-bowl-AQ_BdsvLgqA
+                  - img "raw meat on white ceramic bowl" [ref=e143]
+              - figure [ref=e144]:
+                - link "a couple of raw meat on a cutting board" [ref=e147]:
+                  - /url: /photos/a-couple-of-raw-meat-on-a-cutting-board-VpSwmt0-FMQ
+                  - img "a couple of raw meat on a cutting board" [ref=e148]
+              - figure [ref=e149]:
+                - link "two steaks on a cutting board with herbs and spices" [ref=e152]:
+                  - /url: /photos/two-steaks-on-a-cutting-board-with-herbs-and-spices-x--wK7akQWw
+                  - img "two steaks on a cutting board with herbs and spices" [ref=e153]
+              - figure [ref=e154]:
+                - link "sliced raw meat with green leaves" [ref=e157]:
+                  - /url: /photos/sliced-raw-meat-with-green-leaves-cvj-7TZjvA0
+                  - img "sliced raw meat with green leaves" [ref=e158]
+              - figure [ref=e159]:
+                - link "close up photo of raw meat" [ref=e162]:
+                  - /url: /photos/close-up-photo-of-raw-meat-8IQlsHB2OS8
+                  - img "close up photo of raw meat" [ref=e163]
+              - figure [ref=e164]:
+                - link "A close up of a piece of meat" [ref=e167]:
+                  - /url: /photos/a-close-up-of-a-piece-of-meat-CYh21GUNQ5k
+                  - img "A close up of a piece of meat" [ref=e168]
+            - generic [ref=e169]:
+              - contentinfo [ref=e174]:
+                - generic [ref=e180]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e182]:
+                - link "raw meat on a table with a knife, garlic and pepper" [ref=e185]:
+                  - /url: /photos/raw-meat-on-a-table-with-a-knife-garlic-and-pepper-CEsrs0WHOiw
+                  - img "raw meat on a table with a knife, garlic and pepper" [ref=e186]
+              - figure [ref=e187]:
+                - link "a group of raw meats on a table" [ref=e190]:
+                  - /url: /photos/a-group-of-raw-meats-on-a-table--47X0XodINg
+                  - img "a group of raw meats on a table" [ref=e191]
+              - figure [ref=e192]:
+                - link "a wooden cutting board topped with raw meat" [ref=e195]:
+                  - /url: /photos/a-wooden-cutting-board-topped-with-raw-meat-q_Hos5CQfDg
+                  - img "a wooden cutting board topped with raw meat" [ref=e196]
+              - figure [ref=e197]:
+                - link "A piece of meat sitting on top of a table" [ref=e200]:
+                  - /url: /photos/a-piece-of-meat-sitting-on-top-of-a-table-fHp6h1K7sIo
+                  - img "A piece of meat sitting on top of a table" [ref=e201]
+              - figure [ref=e202]:
+                - link "raw meat on brown wooden table" [ref=e205]:
+                  - /url: /photos/raw-meat-on-brown-wooden-table-J88no2vCrTs
+                  - img "raw meat on brown wooden table" [ref=e206]
+              - figure [ref=e207]:
+                - link "a wooden cutting board topped with raw meat" [ref=e210]:
+                  - /url: /photos/a-wooden-cutting-board-topped-with-raw-meat-ray8FzFW0cE
+                  - img "a wooden cutting board topped with raw meat" [ref=e211]
+              - figure [ref=e212]:
+                - link "a slab of raw meat on a cutting board with vegetables and a bowl of sauce" [ref=e215]:
+                  - /url: /photos/a-slab-of-raw-meat-on-a-cutting-board-with-vegetables-and-a-bowl-of-sauce-ZKv9WGWMOLk
+                  - img "a slab of raw meat on a cutting board with vegetables and a bowl of sauce" [ref=e216]
+              - figure [ref=e217]:
+                - link "a piece of meat sitting on top of a black plate" [ref=e220]:
+                  - /url: /photos/a-piece-of-meat-sitting-on-top-of-a-black-plate-ZaAFi9gqNCY
+                  - img "a piece of meat sitting on top of a black plate" [ref=e221]
+              - figure [ref=e222]:
+                - link "a cutting board with steaks and a knife on it" [ref=e225]:
+                  - /url: /photos/a-cutting-board-with-steaks-and-a-knife-on-it-cEJGctX_DgI
+                  - img "a cutting board with steaks and a knife on it" [ref=e226]
+          - generic [ref=e229]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e230]:
+              - text: Browse premium images on iStock
+              - generic [ref=e231]: "| Claim your discount now"
+            - generic [ref=e233]:
+              - link "Two Wagyu Steaks Ready for Preparatrion" [ref=e234] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/two-wagyu-steaks-ready-for-preparatrion-gm2181257781-600301853?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "Two Wagyu Steaks Ready for Preparatrion" [ref=e235]
+              - link "fresh raw rib eye steaks isolated on white" [ref=e236] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/fresh-raw-rib-eye-steaks-isolated-on-white-gm935316446-255949971?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "fresh raw rib eye steaks isolated on white" [ref=e237]
+              - link "Raw beef steak fillets on dark table. Copy space" [ref=e238] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/raw-beef-steak-fillets-on-dark-table-copy-space-gm1363860571-435266564?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "Raw beef steak fillets on dark table. Copy space" [ref=e239]
+              - link "Raw meats on Butcher's shop. Stock Image" [ref=e240] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/raw-meats-on-butchers-shop-stock-image-gm1315903639-403776505?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "Raw meats on Butcher's shop. Stock Image" [ref=e241]
+              - link "Variety of Raw Black Angus Prime meat steaks" [ref=e242] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/variety-of-raw-black-angus-prime-meat-steaks-gm923692030-253537524?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "Variety of Raw Black Angus Prime meat steaks" [ref=e243]
+              - link "Slices of New York Strip Steak on cutting board" [ref=e244] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/slices-of-new-york-strip-steak-on-cutting-board-gm184624619-17953038?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "Slices of New York Strip Steak on cutting board" [ref=e245]
+              - link "fresh raw oxtail" [ref=e246] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/fresh-raw-oxtail-gm511583784-86713107?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                - img "fresh raw oxtail" [ref=e247]
+              - generic [ref=e248]:
+                - link "Fresh raw top sirloin steak, beautifully marbled and ready for grilling, perfect for meat lovers seeking quality. isolated on white background. top view" [ref=e249] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/fresh-raw-top-sirloin-steak-beautifully-marbled-and-ready-for-grilling-perfect-for-gm2209176691-626283241?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A
+                  - img "Fresh raw top sirloin steak, beautifully marbled and ready for grilling, perfect for meat lovers seeking quality. isolated on white background. top view" [ref=e250]
+                - link "View more on iStock ↗" [ref=e251] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fraw-beef-steak&utm_term=raw+beef+steak%3A%3A%3A%3A&phrase=raw+beef+steak&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e255] [cursor=pointer]
+          - generic [ref=e256]:
+            - link [ref=e257] [cursor=pointer]:
+              - /url: /
+              - img [ref=e258]
+            - paragraph [ref=e260]: Make something awesome
+    - generic:
+      - region "Notifications"

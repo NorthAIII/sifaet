@@ -55,15 +55,19 @@ export default async function ProductPage({
         <span className="text-brand-navy">{product.name}</span>
       </nav>
 
-      <div className="grid gap-8 md:grid-cols-2">
+      <div className="grid gap-10 md:grid-cols-2">
         <ProductImage
+          slug={product.slug}
           name={product.name}
-          categorySlug={product.categorySlug}
-          className="h-72 w-full rounded-2xl border border-stone-200 md:h-96"
+          priority
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="aspect-square w-full rounded-lg border border-stone-200"
         />
 
         <div>
-          <h1 className="text-3xl font-black text-brand-navy">{product.name}</h1>
+          <h1 className="font-display text-4xl font-black text-brand-navy">
+            {product.name}
+          </h1>
           <p className="mt-3 text-stone-600">{product.description}</p>
 
           <div className="my-6 h-px bg-stone-200" />

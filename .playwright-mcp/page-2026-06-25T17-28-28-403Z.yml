@@ -1,0 +1,78 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "Unsplash Home" [ref=e9]
+    - generic [ref=e11]:
+      - link "Log in / Sign up" [ref=e12] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fground-minced-meat
+        - img [ref=e13]
+      - button "Language" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - button "Menu" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - navigation [ref=e23]:
+        - search "Find visuals sitewide" [ref=e25]:
+          - button "Search Unsplash" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - combobox [ref=e29]:
+            - searchbox "Search Unsplash" [ref=e30]: ground minced meat
+            - listbox
+          - button "Clear" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+          - button "Visual search" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "Photos 352":
+                - /url: /s/photos/ground-minced-meat
+                - img
+                - text: Photos
+                - generic: "352"
+            - listitem [ref=e48]:
+              - link "Illustrations 2" [ref=e49] [cursor=pointer]:
+                - /url: /s/illustrations/ground-minced-meat
+                - img [ref=e50]
+                - text: Illustrations
+                - generic [ref=e52]: "2"
+            - listitem [ref=e53]:
+              - button "More" [ref=e54] [cursor=pointer]
+          - button "Filters" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+            - text: Filters
+        - generic [ref=e60]:
+          - heading "Ground minced meat" [level=1] [ref=e62]
+          - generic [ref=e64]:
+            - button "scroll list to the right" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+            - generic [ref=e70]:
+              - link "food preparation" [ref=e72] [cursor=pointer]:
+                - /url: /s/photos/food-preparation
+              - link "culinary" [ref=e74] [cursor=pointer]:
+                - /url: /s/photos/culinary
+              - link "fresh ingredient" [ref=e76] [cursor=pointer]:
+                - /url: /s/photos/fresh-ingredient
+              - link "ground beef" [ref=e78] [cursor=pointer]:
+                - /url: /s/photos/ground-beef
+              - link "home cooking" [ref=e80] [cursor=pointer]:
+                - /url: /s/photos/home-cooking
+              - link "food and drink" [ref=e82] [cursor=pointer]:
+                - /url: /s/photos/food-and-drink
+              - link "cooking ingredient" [ref=e84] [cursor=pointer]:
+                - /url: /s/photos/cooking-ingredient
+              - link "raw meat" [ref=e86] [cursor=pointer]:
+                - /url: /s/photos/raw-meat
+              - link "ingredient" [ref=e88] [cursor=pointer]:
+                - /url: /s/photos/ingredient
+              - link "minced beef" [ref=e90] [cursor=pointer]:
+                - /url: /s/photos/minced-beef
+              - link "ground meat" [ref=e92] [cursor=pointer]:
+                - /url: /s/photos/ground-meat
+              - link "meat preparation" [ref=e94] [cursor=pointer]:
+                - /url: /s/photos/meat-preparation
+    - generic:
+      - region "Notifications"

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { CATEGORIES, popularProducts, saleProducts, SHOP } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 
@@ -9,66 +10,97 @@ export default function HomePage() {
   return (
     <div>
       {/* Hero */}
-      <section className="bg-brand-navy text-white">
-        <div className="mx-auto max-w-6xl px-4 py-14 sm:py-20">
-          <p className="text-sm font-semibold uppercase tracking-widest text-brand-cream/80">
+      <section className="relative isolate">
+        <Image
+          src="/hero/hero.jpg"
+          alt="Şifa et — taze et"
+          fill
+          priority
+          sizes="100vw"
+          className="-z-10 object-cover"
+        />
+        <div className="-z-10 absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-black/20" />
+        <div className="mx-auto flex max-w-6xl flex-col justify-center px-4 py-24 sm:py-32">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/80">
             {SHOP.city} · {SHOP.since}&apos;den beri
           </p>
-          <h1 className="mt-3 max-w-2xl text-4xl font-black leading-tight sm:text-5xl">
-            Taze eti seç, <span className="text-brand-red">dükkandan</span> teslim al.
+          <h1 className="mt-4 max-w-2xl font-display text-4xl font-black leading-[1.05] text-white sm:text-6xl">
+            Güvendiğin kasabın
+            <br />
+            <span className="italic text-brand-red-light">taze eti</span>, artık
+            online.
           </h1>
-          <p className="mt-4 max-w-xl text-stone-300">
-            Şifa et&apos;in günlük taze dana, kuzu, tavuk ve şarküteri ürünlerini
-            online sipariş edin; siz uğraşmadan hazırlayalım. “{SHOP.slogan}”
+          <p className="mt-5 max-w-lg text-base text-white/85">
+            Dana, kuzu, tavuk ve şarküteri ürünlerini seçin, dükkanımızdan teslim
+            alın. “{SHOP.slogan}”
           </p>
-          <div className="mt-7 flex flex-wrap gap-3">
+          <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/kategori/dana"
-              className="rounded-xl bg-brand-red px-6 py-3 font-bold text-white transition-colors hover:bg-brand-red-dark"
+              className="rounded-md bg-brand-red px-7 py-3.5 font-semibold text-white transition-colors hover:bg-brand-red-dark"
             >
               Sipariş ver
             </Link>
-            <a
+            <Link
               href="#kategoriler"
-              className="rounded-xl border border-white/30 px-6 py-3 font-bold text-white transition-colors hover:bg-white/10"
+              className="rounded-md border border-white/40 px-7 py-3.5 font-semibold text-white backdrop-blur-sm transition-colors hover:bg-white/10"
             >
               Ürünlere göz at
-            </a>
+            </Link>
           </div>
         </div>
       </section>
 
       {/* Güven şeridi */}
-      <section className="border-b border-stone-200 bg-white">
-        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-4 px-4 py-6 text-center sm:grid-cols-4">
+      <section className="border-b border-stone-200 bg-brand-cream">
+        <div className="mx-auto grid max-w-6xl grid-cols-2 divide-x divide-stone-200 px-4 py-7 text-center sm:grid-cols-4">
           {[
             { t: "Günlük Taze", s: "Her gün taze kesim" },
             { t: "Dükkandan Teslim", s: "Sıra beklemeden al" },
             { t: "1986'dan Beri", s: "Komşu kasap güveni" },
             { t: "Teslimde Ödeme", s: "Nakit veya kart" },
           ].map((f) => (
-            <div key={f.t}>
-              <p className="font-bold text-brand-navy">{f.t}</p>
-              <p className="text-xs text-stone-500">{f.s}</p>
+            <div key={f.t} className="px-2">
+              <p className="font-display font-bold text-brand-navy">{f.t}</p>
+              <p className="mt-0.5 text-xs text-stone-500">{f.s}</p>
             </div>
           ))}
         </div>
       </section>
 
       {/* Kategoriler */}
-      <section id="kategoriler" className="mx-auto max-w-6xl px-4 py-12">
-        <h2 className="text-2xl font-black text-brand-navy">Kategoriler</h2>
-        <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+      <section id="kategoriler" className="mx-auto max-w-6xl px-4 py-16">
+        <div className="text-center">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-red">
+            Reyonlarımız
+          </p>
+          <h2 className="mt-2 font-display text-3xl font-black text-brand-navy">
+            Ne arıyorsunuz?
+          </h2>
+        </div>
+        <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
           {CATEGORIES.map((c) => (
             <Link
               key={c.slug}
               href={`/kategori/${c.slug}`}
-              className={`group flex flex-col justify-between rounded-2xl p-5 text-white shadow-sm transition-transform hover:-translate-y-0.5 ${
-                c.accent === "red" ? "bg-brand-red" : "bg-brand-navy"
-              }`}
+              className="group relative isolate flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-lg"
             >
-              <span className="text-lg font-black">{c.name}</span>
-              <span className="mt-6 text-xs text-white/80">{c.blurb}</span>
+              <Image
+                src={`/kategori/${c.slug}.jpg`}
+                alt={c.name}
+                fill
+                sizes="(max-width: 768px) 50vw, 20vw"
+                className="-z-10 object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <div className="-z-10 absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="p-4">
+                <span className="font-display text-lg font-bold text-white">
+                  {c.name}
+                </span>
+                <span className="mt-1 block text-[11px] text-white/80">
+                  {c.blurb}
+                </span>
+              </div>
             </Link>
           ))}
         </div>
@@ -76,22 +108,46 @@ export default function HomePage() {
 
       {/* Kampanyalar */}
       {sale.length > 0 && (
-        <section className="mx-auto max-w-6xl px-4 pb-4">
-          <h2 className="text-2xl font-black text-brand-red">
-            Bu Haftanın Fırsatları
-          </h2>
-          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-            {sale.map((p) => (
-              <ProductCard key={p.slug} product={p} />
-            ))}
+        <section className="bg-brand-cream py-16">
+          <div className="mx-auto max-w-6xl px-4">
+            <div className="flex items-end justify-between">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-red">
+                  Fırsatlar
+                </p>
+                <h2 className="mt-2 font-display text-3xl font-black text-brand-navy">
+                  Bu Haftanın Fırsatları
+                </h2>
+              </div>
+            </div>
+            <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {sale.map((p) => (
+                <ProductCard key={p.slug} product={p} />
+              ))}
+            </div>
           </div>
         </section>
       )}
 
       {/* Çok satanlar */}
-      <section className="mx-auto max-w-6xl px-4 py-12">
-        <h2 className="text-2xl font-black text-brand-navy">Çok Satanlar</h2>
-        <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+      <section className="mx-auto max-w-6xl px-4 py-16">
+        <div className="flex items-end justify-between">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-brand-red">
+              Favoriler
+            </p>
+            <h2 className="mt-2 font-display text-3xl font-black text-brand-navy">
+              Çok Satanlar
+            </h2>
+          </div>
+          <Link
+            href="/kategori/dana"
+            className="hidden text-sm font-semibold text-brand-red hover:underline sm:block"
+          >
+            Tümünü gör →
+          </Link>
+        </div>
+        <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
           {popular.map((p) => (
             <ProductCard key={p.slug} product={p} />
           ))}

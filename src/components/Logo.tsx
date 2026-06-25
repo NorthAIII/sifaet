@@ -1,30 +1,25 @@
 import Link from "next/link";
-import Image from "next/image";
 
 /**
- * Geçici amblem (boğa) — gerçek logodan yüksek çözünürlüklü versiyonla
- * değiştirilecek. Kaynak: public/icon.svg
+ * Sade, yazı tabanlı wordmark logo (ŞİFA ET).
+ * Boğa amblemi kaldırıldı; rafine serif tipografi.
  */
-export default function Logo({ compact = false }: { compact?: boolean }) {
+export default function Logo({ light = false }: { light?: boolean }) {
   return (
-    <Link href="/" className="flex items-center gap-2.5 group">
-      <Image
-        src="/icon.svg"
-        alt="Şifa et"
-        width={40}
-        height={40}
-        className="h-10 w-10 rounded-lg shadow-sm"
-        priority
-      />
-      <span className="leading-none">
-        <span className="block font-black tracking-tight text-brand-navy text-lg">
-          ŞİFA ET
-        </span>
-        {!compact && (
-          <span className="block text-[11px] font-medium text-brand-red">
-            Şifa Olsun · 1986
-          </span>
-        )}
+    <Link href="/" className="group inline-flex flex-col leading-none">
+      <span
+        className={`font-display text-2xl font-black tracking-tight ${
+          light ? "text-white" : "text-brand-navy"
+        }`}
+      >
+        ŞİFA<span className="text-brand-red"> ET</span>
+      </span>
+      <span
+        className={`mt-0.5 text-[10px] font-medium uppercase tracking-[0.28em] ${
+          light ? "text-white/70" : "text-stone-400"
+        }`}
+      >
+        Tuzla · 1986
       </span>
     </Link>
   );
