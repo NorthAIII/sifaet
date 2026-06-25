@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { getCategory, getProduct, PRODUCTS } from "@/lib/data";
+import {
+  getCategory,
+  getProduct,
+  PRODUCTS,
+  productsByCategory,
+} from "@/lib/data";
 import ProductImage from "@/components/ProductImage";
+import ProductCard from "@/components/ProductCard";
 import AddToCart from "@/components/AddToCart";
 
 export function generateStaticParams() {
@@ -32,6 +38,9 @@ export default async function ProductPage({
   if (!product) notFound();
 
   const category = getCategory(product.categorySlug);
+  const related = productsByCategory(product.categorySlug)
+    .filter((p) => p.slug !== product.slug)
+    .slice(0, 4);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8">
@@ -74,12 +83,38 @@ export default async function ProductPage({
 
           <AddToCart product={product} />
 
-          <p className="mt-5 text-xs text-stone-500">
-            Et günlük ve taze hazırlanır. Ağırlıklar yaklaşıktır; tartıdaki küçük
-            farklar dükkanda dengelenir.
+          {/* Teslim / güven bilgisi */}
+          <ul className="mt-6 space-y-2 rounded-lg border border-stone-200 bg-brand-cream p-4 text-sm text-stone-600">
+            <li className="flex items-center gap-2">
+              <span aria-hidden>🏪</span> Dükkandan ücretsiz teslim alma
+            </li>
+            <li className="flex items-center gap-2">
+              <span aria-hidden>🔪</span> Günlük taze kesim, sipariş üzerine hazırlanır
+            </li>
+            <li className="flex items-center gap-2">
+              <span aria-hidden>💳</span> Teslimde nakit/kart veya online ödeme
+            </li>
+          </ul>
+
+          <p className="mt-4 text-xs text-stone-500">
+            Ağırlıklar yaklaşıktır; tartıdaki küçük farklar dükkanda dengelenir.
           </p>
         </div>
       </div>
+
+      {/* Benzer ürünler */}
+      {related.length > 0 && (
+        <section className="mt-16 border-t border-stone-200 pt-10">
+          <h2 className="font-display text-2xl font-black text-brand-navy">
+            Bunları da beğenebilirsiniz
+          </h2>
+          <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+            {related.map((p) => (
+              <ProductCard key={p.slug} product={p} />
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

@@ -2,6 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { CATEGORIES, popularProducts, saleProducts, SHOP } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
+import HowItWorks from "@/components/home/HowItWorks";
+import BrandStory from "@/components/home/BrandStory";
+import CtaBand from "@/components/home/CtaBand";
 
 export default function HomePage() {
   const popular = popularProducts();
@@ -106,6 +109,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Nasıl çalışır */}
+      <HowItWorks />
+
       {/* Kampanyalar */}
       {sale.length > 0 && (
         <section className="bg-brand-cream py-16">
@@ -128,6 +134,9 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      {/* Marka hikâyesi */}
+      <BrandStory />
 
       {/* Çok satanlar */}
       <section className="mx-auto max-w-6xl px-4 py-16">
@@ -153,6 +162,9 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Kapanış CTA */}
+      <CtaBand />
     </div>
   );
 }
