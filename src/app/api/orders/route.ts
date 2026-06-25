@@ -1,23 +1,10 @@
 import { NextResponse } from "next/server";
-
-/*
-  Sipariş alma uç noktası.
-  Faz 4'te: Supabase'e kayıt + WhatsApp bildirimi eklenecek.
-  Şimdilik: sipariş kodu üretir, sunucu konsoluna yazar ve kodu döner.
-*/
-
-function generateCode(): string {
-  const stamp = Date.now().toString(36).toUpperCase().slice(-5);
-  const rand = Math.floor(Math.random() * 36 ** 2)
-    .toString(36)
-    .toUpperCase()
-    .padStart(2, "0");
-  return `SE-${stamp}${rand}`;
-}
+import { createOrder, type OrderInput } from "@/lib/orders";
+import { notifyNewOrder } from "@/lib/notify";
 
 export async function POST(request: Request) {
   try {
-    const order = await request.json();
+    const order = (await request.json()) as OrderInput;
 
     // Basit doğrulama
     if (!order?.customer?.name || !order?.customer?.phone) {
@@ -30,13 +17,16 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Sepet boş" }, { status: 400 });
     }
 
-    const code = generateCode();
+    const { code } = await createOrder(order);
 
-    // TODO (Faz 4): Supabase'e yaz + WhatsApp bildirimi gönder
-    console.log("[YENİ SİPARİŞ]", code, JSON.stringify(order));
+    // Bildirim (varsa) — siparişi bekletmeden, hatası yutulur
+    await notifyNewOrder(code, order);
 
     return NextResponse.json({ code });
   } catch {
-    return NextResponse.json({ error: "Geçersiz istek" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Sipariş kaydedilemedi" },
+      { status: 500 },
+    );
   }
 }
