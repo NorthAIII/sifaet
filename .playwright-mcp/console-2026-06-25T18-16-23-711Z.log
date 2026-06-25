@@ -1,1 +1,4 @@
 [     217ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ http://localhost:3000/:0
+[ 1744391ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/urun/dana-kiyma?_rsc=5CB68i4pnAekjehf:0
+[ 1744448ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/urun/tavuk-gogus?_rsc=5CB68i4pnAekjehf:0
+[ 1744919ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/urun/dana-antrikot?_rsc=5CB68i4pnAekjehf:0
