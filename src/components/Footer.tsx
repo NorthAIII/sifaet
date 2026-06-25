@@ -39,6 +39,11 @@ export default function Footer() {
             <li>Telefon: {SHOP.phone}</li>
             <li>WhatsApp: {SHOP.whatsapp}</li>
             <li>
+              <Link href="/iletisim" className="hover:text-white">
+                İletişim & Konum
+              </Link>
+            </li>
+            <li>
               <Link href="/sepet" className="hover:text-white">
                 Sepetim
               </Link>
